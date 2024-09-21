@@ -1,0 +1,82 @@
+/* General container styles */
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 80px;
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Left content (text and button) */
+  .welcome-content {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .welcome-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  
+  /* Right side colored bars */
+  .color-bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Purple box */
+  .bar-1 {
+    width: 350px;
+    background-color: #D1C4F8;
+    height: 65px;
+    border-radius: 10px;
+  }
+  
+  /* Black box */
+  .bar-2 {
+    width: 250px;
+    background-color: #1F1F30;
+    height: 65px;
+    border-radius: 10px;
+  }
+  
+  /* Green/yellow box */
+  .bar-3 {
+    width: 300px;
+    background-color: #D3FF4E;
+    height: 65px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px; 
+  }
+  
+  /* Start button styling */
+  .start-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  
+  /* enter styling */
+  .press-enter {
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 10px;
+  }
+  
